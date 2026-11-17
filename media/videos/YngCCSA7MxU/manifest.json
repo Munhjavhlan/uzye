@@ -1,0 +1,118 @@
+{
+  "duration": 72,
+  "width": 640,
+  "height": 360,
+  "mime": "video/mp4; codecs=\"avc1.4d401f, mp4a.40.2\"",
+  "init": "init.mp4",
+  "segmentSeconds": 4,
+  "segments": [
+    {
+      "url": "seg_0.m4s",
+      "start": 0,
+      "duration": 4,
+      "size": 191680
+    },
+    {
+      "url": "seg_1.m4s",
+      "start": 4,
+      "duration": 4,
+      "size": 193749
+    },
+    {
+      "url": "seg_2.m4s",
+      "start": 8,
+      "duration": 4,
+      "size": 199224
+    },
+    {
+      "url": "seg_3.m4s",
+      "start": 12,
+      "duration": 4,
+      "size": 198306
+    },
+    {
+      "url": "seg_4.m4s",
+      "start": 16,
+      "duration": 4,
+      "size": 190494
+    },
+    {
+      "url": "seg_5.m4s",
+      "start": 20,
+      "duration": 4,
+      "size": 191573
+    },
+    {
+      "url": "seg_6.m4s",
+      "start": 24,
+      "duration": 4,
+      "size": 195175
+    },
+    {
+      "url": "seg_7.m4s",
+      "start": 28,
+      "duration": 4,
+      "size": 195723
+    },
+    {
+      "url": "seg_8.m4s",
+      "start": 32,
+      "duration": 4,
+      "size": 193519
+    },
+    {
+      "url": "seg_9.m4s",
+      "start": 36,
+      "duration": 4,
+      "size": 196054
+    },
+    {
+      "url": "seg_10.m4s",
+      "start": 40,
+      "duration": 4,
+      "size": 194670
+    },
+    {
+      "url": "seg_11.m4s",
+      "start": 44,
+      "duration": 4,
+      "size": 193305
+    },
+    {
+      "url": "seg_12.m4s",
+      "start": 48,
+      "duration": 4,
+      "size": 196556
+    },
+    {
+      "url": "seg_13.m4s",
+      "start": 52,
+      "duration": 4,
+      "size": 196643
+    },
+    {
+      "url": "seg_14.m4s",
+      "start": 56,
+      "duration": 4,
+      "size": 183674
+    },
+    {
+      "url": "seg_15.m4s",
+      "start": 60,
+      "duration": 4,
+      "size": 189159
+    },
+    {
+      "url": "seg_16.m4s",
+      "start": 64,
+      "duration": 4,
+      "size": 193021
+    },
+    {
+      "url": "seg_17.m4s",
+      "start": 68,
+      "duration": 4,
+      "size": 192124
+    }
+  ]
+}

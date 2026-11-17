@@ -1,0 +1,22 @@
+{
+  "name": "uzye-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Үзье — YouTube шиг видео платформ. Өөрийн mini framework ба web component-оор, гадны сангүйгээр бүтээв.",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node apps/server/src/index.js",
+    "dev": "node --watch apps/server/src/index.js",
+    "seed": "node apps/server/scripts/seed.js",
+    "add-video": "node apps/server/scripts/add-video.js",
+    "test": "node apps/server/scripts/api-test.js",
+    "clean-copy": "node tools/make-clean.js"
+  }
+}

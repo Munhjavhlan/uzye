@@ -1,0 +1,71 @@
+:root {
+  --brand: #f43f5e;
+  --bg: #ffffff;
+  --bg-elev: #ffffff;
+  --bg-hover: rgba(0, 0, 0, 0.05);
+  --bg-active: rgba(0, 0, 0, 0.1);
+  --bg-chip: rgba(0, 0, 0, 0.05);
+  --bg-chip-hover: rgba(0, 0, 0, 0.1);
+  --chip-active-bg: #0f0f0f;
+  --chip-active-fg: #ffffff;
+  --text: #0f0f0f;
+  --text-2: #606060;
+  --border: rgba(0, 0, 0, 0.1);
+  --border-strong: #d3d3d3;
+  --link: #065fd4;
+  --link-bg: #def1ff;
+  --link-on-dark: #3ea6ff;
+  --toast-bg: #0f0f0f;
+  --toast-fg: #f1f1f1;
+  --shadow: 0 4px 32px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.08);
+  --header-h: 56px;
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0f0f0f;
+  --bg-elev: #282828;
+  --bg-hover: rgba(255, 255, 255, 0.1);
+  --bg-active: rgba(255, 255, 255, 0.2);
+  --bg-chip: rgba(255, 255, 255, 0.1);
+  --bg-chip-hover: rgba(255, 255, 255, 0.2);
+  --chip-active-bg: #f1f1f1;
+  --chip-active-fg: #0f0f0f;
+  --text: #f1f1f1;
+  --text-2: #aaaaaa;
+  --border: rgba(255, 255, 255, 0.2);
+  --border-strong: #303030;
+  --link: #3ea6ff;
+  --link-bg: #263850;
+  --toast-bg: #f1f1f1;
+  --toast-fg: #0f0f0f;
+  --link-on-dark: #065fd4;
+  --shadow: 0 4px 32px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Roboto', 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+uzye-app, router-view { display: block; }
+
+app-header {
+  position: sticky; top: 0; z-index: 100;
+  display: block; height: var(--header-h);
+  background: var(--bg);
+}
+
+.app-body { display: flex; }
+.app-main { flex: 1; min-width: 0; min-height: calc(100vh - var(--header-h)); }
+
+.boot { display: grid; place-items: center; height: 100vh; color: var(--text-2); font-size: 16px; }

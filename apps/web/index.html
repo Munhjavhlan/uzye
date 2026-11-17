@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="mn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Үзье</title>
+    <meta name="description" content="Үзье — видео үзэх, хуваалцах платформ">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script>
+      try {
+        var t = localStorage.getItem('uzye.theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@uzye/framework": "/pkg/framework/index.js",
+          "@uzye/ui": "/pkg/ui/index.js"
+        }
+      }
+    </script>
+    <link rel="modulepreload" href="/pkg/framework/index.js">
+    <link rel="modulepreload" href="/pkg/ui/index.js">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <uzye-app><div class="boot">Ачаалж байна…</div></uzye-app>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

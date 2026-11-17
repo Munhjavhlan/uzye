@@ -1,0 +1,181 @@
+[
+  {
+    "id": "WSlCWfOaMcT",
+    "title": "JavaScript Promise 10 минутад — async/await хүртэл",
+    "description": "Promise гэж юу вэ, then/catch хэрхэн ажилладаг, async/await-ыг хэзээ ашиглах вэ гэдгийг жишээгээр тайлбарлав.\n\n00:00 Танилцуулга\n00:12 Promise үүсгэх\n00:28 async/await",
+    "channelId": "DnwRTXkWL3w",
+    "category": "programming",
+    "tags": [
+      "javascript",
+      "promise",
+      "async"
+    ],
+    "duration": 44,
+    "baseLikes": 4200,
+    "createdAt": "2026-11-15T14:09:30.271Z"
+  },
+  {
+    "id": "utsMmc2-Hur",
+    "title": "Web Component гэж юу вэ? Custom Elements ба Shadow DOM",
+    "description": "Framework ашиглахгүйгээр өөрийн HTML таг үүсгэх аргыг үзье. customElements.define, Shadow DOM, slot.",
+    "channelId": "DnwRTXkWL3w",
+    "category": "programming",
+    "tags": [
+      "web components",
+      "shadow dom",
+      "html"
+    ],
+    "duration": 52,
+    "baseLikes": 3100,
+    "createdAt": "2026-11-08T14:09:30.271Z"
+  },
+  {
+    "id": "usb2AqLFTlC",
+    "title": "Node.js Stream ойлгох нь — видео хэрхэн хэсэг хэсгээр дамждаг вэ",
+    "description": "Readable, Writable stream, HTTP Range хүсэлт, видеог сегментээр дамжуулах зарчим.",
+    "channelId": "DnwRTXkWL3w",
+    "category": "programming",
+    "tags": [
+      "node.js",
+      "stream",
+      "video"
+    ],
+    "duration": 64,
+    "baseLikes": 2650,
+    "createdAt": "2026-10-27T14:09:30.271Z"
+  },
+  {
+    "id": "DV9QTNOrqK9",
+    "title": "CSS Grid эхлэгчдэд — бүрэн заавар",
+    "description": "grid-template-columns, gap, auto-fill, minmax ашиглан YouTube шиг responsive grid хийх.",
+    "channelId": "DnwRTXkWL3w",
+    "category": "programming",
+    "tags": [
+      "css",
+      "grid",
+      "responsive"
+    ],
+    "duration": 40,
+    "baseLikes": 5800,
+    "createdAt": "2026-10-03T14:09:30.271Z"
+  },
+  {
+    "id": "fLCnGF12axh",
+    "title": "Хөвсгөл нуурын үүр цайх мөч — тайван 1 минут",
+    "description": "Монголын \"хөх сувд\" Хөвсгөл нуур. Чихэвчээр сонсохыг зөвлөж байна.",
+    "channelId": "AUrZWSoP4Wk",
+    "category": "nature",
+    "tags": [
+      "хөвсгөл",
+      "нуур",
+      "байгаль"
+    ],
+    "duration": 60,
+    "baseLikes": 7300,
+    "createdAt": "2026-11-13T14:09:30.271Z"
+  },
+  {
+    "id": "7NTMK6Y7gAE",
+    "title": "Говийн шөнийн од эрхэс — timelapse",
+    "description": "Говь цөлийн тунгалаг тэнгэр дэх од эрхсийн эргэлт.",
+    "channelId": "AUrZWSoP4Wk",
+    "category": "nature",
+    "tags": [
+      "говь",
+      "од",
+      "timelapse"
+    ],
+    "duration": 48,
+    "baseLikes": 9100,
+    "createdAt": "2026-11-02T14:09:30.271Z"
+  },
+  {
+    "id": "EJgJIFce0Cu",
+    "title": "Алтайн уулсаар аялах нь",
+    "description": "Баян-Өлгийн Алтай Таван Богд — ногоон хөндий, мөсөн гол.",
+    "channelId": "AUrZWSoP4Wk",
+    "category": "nature",
+    "tags": [
+      "алтай",
+      "аялал",
+      "уул"
+    ],
+    "duration": 40,
+    "baseLikes": 2200,
+    "createdAt": "2026-09-18T14:09:30.271Z"
+  },
+  {
+    "id": "UjvBP80VjDb",
+    "title": "Шатрын нээлтүүд: Сицили хамгаалалт",
+    "description": "1.e4 c5 — хамгийн алдартай хамгаалалтын үндсэн санаанууд.",
+    "channelId": "llnmtro1oNl",
+    "category": "gaming",
+    "tags": [
+      "шатар",
+      "нээлт",
+      "сицили"
+    ],
+    "duration": 56,
+    "baseLikes": 1800,
+    "createdAt": "2026-11-16T14:09:30.271Z"
+  },
+  {
+    "id": "GJkMqdMFYxS",
+    "title": "Rule 30 — энгийн дүрмээс гарах эмх замбараагүй байдал",
+    "description": "Нэг мөрт эсийн автомат (cellular automaton), Rule 30-ын гайхалтай хээ.",
+    "channelId": "llnmtro1oNl",
+    "category": "gaming",
+    "tags": [
+      "симуляци",
+      "математик"
+    ],
+    "duration": 32,
+    "baseLikes": 950,
+    "createdAt": "2026-10-18T14:09:30.271Z"
+  },
+  {
+    "id": "QpgEmq9V6hS",
+    "title": "Conway's Game of Life — 4 дүрмээр амьдрал симуляци",
+    "description": "Эс бүр хөршийнхөө тоогоор амьд үлдэх эсвэл үхэх. Энгийн дүрмээс нарийн хэв маяг үүсдэг.",
+    "channelId": "llnmtro1oNl",
+    "category": "gaming",
+    "tags": [
+      "game of life",
+      "симуляци",
+      "алгоритм"
+    ],
+    "duration": 68,
+    "baseLikes": 15200,
+    "createdAt": "2026-08-19T14:09:30.271Z"
+  },
+  {
+    "id": "YngCCSA7MxU",
+    "title": "Морин хуурын аялгуу (синтез) — дууны долгионоор",
+    "description": "Дууны долгионыг (waveform) шууд харуулсан тайван аялгуу.",
+    "channelId": "klI9Z_XEi08",
+    "category": "music",
+    "tags": [
+      "морин хуур",
+      "хөгжим",
+      "тайван"
+    ],
+    "duration": 72,
+    "baseLikes": 6600,
+    "createdAt": "2026-11-11T14:09:30.271Z"
+  },
+  {
+    "id": "BlnK6BqBnpT",
+    "title": "Lo-fi хичээлийн хөгжим — анхаарал төвлөрүүлэх",
+    "description": "Хичээл хийх, код бичих үед сонсох lo-fi. Спектрограмм дээр дууны давтамжийг харж болно.",
+    "channelId": "klI9Z_XEi08",
+    "category": "music",
+    "tags": [
+      "lofi",
+      "хичээл",
+      "хөгжим"
+    ],
+    "duration": 80,
+    "baseLikes": 12400,
+    "createdAt": "2026-11-05T14:09:30.272Z"
+  }
+]
